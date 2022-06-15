@@ -5,6 +5,7 @@ import getStore  from './store/configureStore';
 import { useDispatch, useSelector, Provider } from 'react-redux'
 import {toggleContactForm, handleInputChange} from './actions';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     /* Gives the app access to the store */
