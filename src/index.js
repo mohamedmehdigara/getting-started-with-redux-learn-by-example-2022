@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactDOM}from 'react-dom/client';
+import * as ReactDOM from 'react-dom/client';
 import App from './App';
 import getStore  from './store/configureStore';
 import { useDispatch, useSelector, Provider } from 'react-redux'
